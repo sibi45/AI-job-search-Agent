@@ -2,9 +2,9 @@
 
 # 🦅 AI Job Search
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/readme/hero.svg" alt="AI Job Search. Pip the courier bird carries an application along a flight path to its destination. The job search that runs on your machine." width="100%">
-</p>
+</p> -->
 
 ### *The AI-Powered Career Copilot That Runs On Your Machine*
 
@@ -39,9 +39,9 @@
 
 > *"I'm a geophysicist by training. When my position was cut in late 2025, I built this framework to automate and refine my own job hunt — using the exact `/scrape`, `/apply`, and `/interview` workflow in this repository on my own career."*
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/readme/letters.svg" alt="69 envelopes for 69 tailored applications. 20 of them light up as first interviews, and one is sealed as the signed contract." width="100%">
-</p>
+</p> -->
 
 <div align="center">
 
