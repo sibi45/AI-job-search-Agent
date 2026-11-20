@@ -109,9 +109,9 @@
 
 A structured 6-stage lifecycle takes you seamlessly from raw candidate profile to signed contract:
 
-<p align="center">
+<!-- <p align="center">
   <img src="assets/readme/route.svg" alt="The workflow in order: /setup builds your profile, /scrape finds new postings, /rank shortlists the fits, /apply tailors a CV and cover letter, /interview preps every round, /outcome tracks each result." width="100%">
-</p>
+</p> -->
 
 ```
   [ /setup ] ────► [ /scrape ] ────► [ /rank ] ────► [ /apply ] ────► [ /interview ] ────► [ /outcome ]
@@ -244,9 +244,9 @@ The framework provides 13 streamlined commands organized by workflow phase:
 
 ## 🎯 How `/apply` Works
 
-<p align="center">
-  <img src="assets/readme/apply.svg" alt="A job posting passes an integrity gate and fit evaluation, then loops through draft, review, revise, and compile plus inspect until the CV is exactly two pages, the cover letter one page, and the ATS text layer is checked." width="100%">
-</p>
+<!-- <p align="center">
+  <img src="assets/readme/apply.svg" alt="A job posting passes an integrity gate and fit evaluation, then loops through draft, review, revise, and compile plus inspect until the CV is exactly two pages, the cover letter one page, and the ATS text layer is checked." width="100%"> -->
+<!-- </p> -->
 
 Every application executes an autonomous **Drafter-Reviewer loop**:
 
@@ -325,10 +325,10 @@ Contributions are welcomed! Before opening a Pull Request, please read our [CONT
 ## 📄 License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
-
+<!-- 
 <div align="center">
   <br>
   <img src="assets/mascot/pip_flight_loop.gif" alt="Pip the courier bird" width="110">
   <br>
   <sub><b>Pip delivers. Best of luck on your job search journey! 🚀</b></sub>
-</div>
+</div> -->
