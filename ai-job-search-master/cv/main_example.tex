@@ -1,0 +1,129 @@
+%% Master CV - Sibisaran S
+%% Comprehensive overview of all competencies, experience, and achievements.
+%% Use as a master reference when tailoring role-specific CVs.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\renewcommand*{\namefont}{\fontsize{32}{34}\bfseries\upshape}
+\colorlet{firstnamecolor}{color1}
+\colorlet{lastnamecolor}{color1}
+\colorlet{namecolor}{color1}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\ifpdftex\usepackage[T1]{fontenc}\fi
+\AtEndPreamble{\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Sibisaran S - CV},
+    pdfpagemode=UseNone,
+}}
+\usepackage[scale=0.82]{geometry}
+\usepackage{import}
+
+% Personal data
+\name{Sibisaran}{S}
+\address{Chennai, Tamil Nadu, India}{}{}
+\phone[mobile]{+91~9363286257}
+\email{sibisaran0508@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/sibi1}{linkedin.com/in/sibi1}}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{4pt}
+\small{Results-driven Jr. AI \& ML Engineer with deep hands-on expertise in building multi-agent AI systems, LLM-powered applications, and production-grade Python backend services (FastAPI, PostgreSQL, Redis). Strong data science foundation in exploratory data analysis (EDA), feature engineering, and training supervised/unsupervised machine learning models. Experienced in designing resilient asynchronous architectures and multi-LLM routing pipelines.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Agentic AI \& LLMs}: LangGraph, CrewAI, LangChain, Multi-Agent Orchestration, Multi-LLM Routing (Groq, Together AI, OpenRouter, Ollama), Prompt Engineering, RAG Architectures.
+\item \textbf{Backend \& APIs}: FastAPI, RESTful API Development, SQLAlchemy (Sync \& Async), Redis Caching, Celery Background Workers, Pydantic, Microservices.
+\item \textbf{Machine Learning \& DL}: Scikit-Learn, Keras, TensorFlow, Supervised \& Unsupervised Learning, Exploratory Data Analysis (EDA), Model Evaluation.
+\item \textbf{Databases \& Storage}: SQL, PostgreSQL (AsyncPG), SQLite, Redis, Vector Databases.
+\item \textbf{DevOps \& Tools}: Docker, Docker Compose, Linux, Git, GitHub, N8N, Postman, Nginx, React.js.
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{2pt}
+\begin{itemize}
+
+\item{\cventry{Present}{Jr. AI \& ML Engineer}{Infinitetechai}{Chennai, India}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Contribute to the design and development of AI-driven and backend systems for production applications.}
+    \item {Build and maintain scalable backend services for an E-commerce platform using FastAPI, PostgreSQL, and SQLAlchemy ORM.}
+    \item {Design RESTful API endpoints, database models, and data access layers to support core e-commerce functionality (catalog, orders, and user management).}
+    \item {Collaborate with engineering teams to write clean, maintainable Python code and integrate ML and AI components into production backend workflows.}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     KEY PROJECTS
+% ============================================================
+
+\section{Key Projects}
+\vspace{2pt}
+\begin{itemize}
+
+\item{\cventry{Python 3.11, FastAPI, LangGraph, CrewAI, Groq Llama 3.3 70B, Redis, Docker}{Multi-Agent AI Task Management \& Automation Platform}{Personal Project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Architected a stateful multi-agent orchestration system using LangGraph and CrewAI, leveraging Llama 3.3 70B (Groq) to dynamically suggest, refine, and execute strategic enterprise tasks.}
+    \item {Implemented 15+ custom Pydantic-validated database tools with dynamic prompt keyword-filtering to eliminate tool-parameter hallucination.}
+    \item {Engineered thread-safe multi-tenant context isolation and built custom governance middleware for real-time prompt safety filtering and output sanitization.}
+    \item {Built a multi-LLM gateway with fallback routing across hosted providers (Groq, Together AI, OpenRouter) and local models (Ollama / Qwen2.5 7B).}
+\end{itemize}}}
+
+\vspace{2pt}
+
+\item{\cventry{Python 3.12, FastAPI, PostgreSQL, SQLAlchemy Async, Redis, Celery, React 18, Docker}{Enterprise Employee Telemetry \& Workforce Analytics Platform}{Personal Project}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item {Architected a distributed telemetry platform featuring a Rust desktop agent, Chrome MV3 browser extension, FastAPI async backend, and React analytics dashboard.}
+    \item {Designed asynchronous database layers using SQLAlchemy 2.0 and PostgreSQL (AsyncPG) with Alembic migrations under the Repository pattern.}
+    \item {Engineered background task processing with Redis and Celery for real-time productivity scoring and automated report exports.}
+    \item {Implemented Argon2id password hashing, JWT rolling refresh tokens, and sliding-window IP rate-limiting.}
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+\item{\cventry{2021 -- 2025}{B.Tech in Artificial Intelligence and Data Science}{Easa College of Engineering and Technology}{Coimbatore / Chennai, India}{}{\vspace{1pt}
+Core Focus: Machine Learning, Deep Learning, Data Science, Python Backend Systems, and Software Engineering.
+}}
+\end{itemize}
+
+% ============================================================
+%     CERTIFICATIONS & LANGUAGES
+% ============================================================
+
+\section{Certifications \& Languages}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Certifications}: Data Science Certificate (Vcodez), Data Analytics Certification (Marcello Tech).
+\item \textbf{Languages}: English (Professional working proficiency), Tamil (Native).
+\end{itemize}
+
+\end{document}
